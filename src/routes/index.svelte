@@ -5,7 +5,8 @@
 		decoration?: string;
 		background?: string;
 	}
-	let texto = '';
+	let texto =
+		'Al 43 retirarse 43 Sanchez 43 Ochoa 43 32 11 34 6 43 173 43 32 15 2 16 25 4 36 43 de 43 Jalisco 43 (195) 43 33 15 12 43 deja 43 35 12 37 1 21 5 11 34 19 8 1 43 36 2 43 19 2 36 27 9 35 6 25 8 42 11 43 10 43 hasta 43 el 43 12 36 37 34 2 27 9 43 19 12 43 12 30 37 2 21 6 34 36 7 43 al 43 12 30 2 27 13 21 14 43 en 43 195 43 1 16 5 30 19 6 29 43 por 43 todos 43 32 11 34 37 12 36 43 21 6 38 8 26 1 36 43 en 43 la 43 32 25 11 42 1 43 22 11 41 43 solo 43 27 8 25 43 34 7 17 25 10 37 1 36 43 que 43 han 43 hecho 43 19 3 38 12 34 36 1 36 43 37 2 29 37 1 37 8 38 11 36 43 de 43 19 7 36 12 34 36 8 9 29 43 7 29 43 27 6 36 11 43 creo 43 que 43 con 43 7 36 37 9 36 43 7 25 2 28 12 30 37 14 36 43 no 43 se 43 19 2 20 8 2 29 19 2 43 32 25 1 42 6 43 y 43 si 43 ella 43 36 12 43 29 14 34 37 3 20 8 17 6 43 41 43 38 3 2 30 7 43 12 25 43 2 30 12 28 8 21 9 43 17 1 12 29 43 2 30 43 36 5 43 32 14 19 12 34 43 17 5 1 29 37 9 36 12 43 25 2 28 7 30 37 14 36 43 tenemos. 43 Por 43 esto 43 he 43 creido 43 33 15 12 43 36 3 43 1 15 40 3 25 13 14 43 30 9 43 38 13 12 30 12 43 32 34 9 30 37 9 43 19 2 16 9 43 36 1 25 8 34 28 2 43 de 43 173 43 con 43 el 43 21 9 16 8 7 34 29 4 43 y 43 36 8 37 15 11 34 27 7 43 en 43 el 43 punto 43 de 43 169 43 que 43 sea 43 28 11 36 43 17 4 30 38 7 30 8 7 29 37 2 43 según 43 las 43 circunstancias 43 32 11 34 6 43 29 14 35 28 1 35 43 28 3 36 43 14 32 7 34 6 17 8 4 29 7 36 43 le 43 ruego 43 27 12 43 19 8 21 1 43 17 5 1 29 19 9 43 32 14 19 34 1 43 26 7 21 11 34 43 1 17 11 43 12 36 7 43 1 15 40 3 25 8 9 .';
 	let textoSeparado: string[];
 	let decodificado: string;
 
@@ -214,7 +215,7 @@
 					id="about"
 					name="about"
 					rows="3"
-					class="shadow-sm focus:ring-indigo-500 p-4 focus:border-cyan-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
+					class="h-auto shadow-sm focus:ring-indigo-500 p-4 focus:border-cyan-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
 					placeholder="31 30 10 9 6 42 11 13 34"
 					bind:value={texto}
 				/>
